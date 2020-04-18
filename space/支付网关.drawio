@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-18T11:18:36.261Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="OAc6JfLrXsN7A3gX9mYP" version="12.9.14" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-18T11:23:04.782Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="sofUK8UHaLUxpEz8VYXi" version="12.9.14" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
     <mxGraphModel dx="2021" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="#ffffff" math="0" shadow="0">
       <root>
@@ -628,6 +628,21 @@
         </mxCell>
         <mxCell id="wdB7McpbQnSKonyvfbZ4-81" value="RocketMQ分布式事务异常处理情况 &amp;nbsp;Tips：&lt;br&gt;error1.&amp;nbsp;如果支付网关异常状况导致创建订单失败，则直接通知业务线异常状况，和原网关业务一致&lt;br&gt;error2.&amp;nbsp;如果创建完订单后，支付网关调用RocketMQ，RocketMQ宕机，则启动RocketMQ高可用方案，保证消息能传入消息队列 &amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2210" y="1050" width="360" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="wdB7McpbQnSKonyvfbZ4-84" value="RocketMQ&amp;nbsp;主" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1627.5" y="1530" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wdB7McpbQnSKonyvfbZ4-85" value="RocketMQ&amp;nbsp;主" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1627.5" y="1590" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wdB7McpbQnSKonyvfbZ4-86" value="nameserver&amp;nbsp;集群&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1725" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wdB7McpbQnSKonyvfbZ4-88" value="RocketMQ&amp;nbsp;从" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1842.5" y="1530" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wdB7McpbQnSKonyvfbZ4-89" value="RocketMQ&amp;nbsp;从" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1842.5" y="1590" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
