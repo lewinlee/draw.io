@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2020-04-18T10:20:16.971Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="uFyLO9ka68pDazb-MQPF" version="12.9.14" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-18T10:56:26.004Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="lFuJZNH3GTLIjclk_QI8" version="12.9.14" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
     <mxGraphModel dx="2021" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wdB7McpbQnSKonyvfbZ4-52" value="业务线" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="670" y="40" width="730" height="130" as="geometry" />
+        </mxCell>
         <mxCell id="wdB7McpbQnSKonyvfbZ4-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1580" y="550" width="470" height="80" as="geometry" />
+          <mxGeometry x="1770" y="555" width="470" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VvI8yXbkPYTi_8kJMqFg-1" value="redis（key:phone_xx_store_01）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1630" y="290" width="270" height="60" as="geometry" />
@@ -78,6 +81,18 @@
         </mxCell>
         <mxCell id="wdB7McpbQnSKonyvfbZ4-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VvI8yXbkPYTi_8kJMqFg-22" target="wdB7McpbQnSKonyvfbZ4-31">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wdB7McpbQnSKonyvfbZ4-49" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="VvI8yXbkPYTi_8kJMqFg-22" target="wdB7McpbQnSKonyvfbZ4-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1500" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wdB7McpbQnSKonyvfbZ4-53" value="支付结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wdB7McpbQnSKonyvfbZ4-49">
+          <mxGeometry x="-0.0667" y="17" relative="1" as="geometry">
+            <mxPoint x="17" y="18" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="VvI8yXbkPYTi_8kJMqFg-22" value="支付网关" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="560" y="560" width="940" height="60" as="geometry" />
@@ -437,22 +452,16 @@
           <mxGeometry x="290" y="835" width="250" height="90" as="geometry" />
         </mxCell>
         <mxCell id="wdB7McpbQnSKonyvfbZ4-28" value="Redis Cluster" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="560" width="120" height="60" as="geometry" />
+          <mxGeometry x="1790" y="565" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wdB7McpbQnSKonyvfbZ4-29" value="Redis Cluster" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1750" y="560" width="120" height="60" as="geometry" />
+          <mxGeometry x="1940" y="565" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wdB7McpbQnSKonyvfbZ4-30" value="Redis Cluster" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1900" y="560" width="120" height="60" as="geometry" />
+          <mxGeometry x="2090" y="565" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wdB7McpbQnSKonyvfbZ4-33" value="Redis&amp;nbsp; Tips：&lt;br&gt;1.&amp;nbsp;存储业务线appKey和appSign。&lt;br&gt;2.&amp;nbsp;存储配置信息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2080" y="540" width="250" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="wdB7McpbQnSKonyvfbZ4-34" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1430" y="620" as="sourcePoint" />
-            <mxPoint x="1480" y="570" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="wdB7McpbQnSKonyvfbZ4-33" value="Redis&amp;nbsp; Tips：&lt;br&gt;1.&amp;nbsp;存储业务线appKey和appSign。&lt;br&gt;2.&amp;nbsp;存储配置信息&lt;br&gt;3.&amp;nbsp;自动续费--签约信息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="545" width="250" height="90" as="geometry" />
         </mxCell>
         <mxCell id="wdB7McpbQnSKonyvfbZ4-35" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -464,7 +473,41 @@
           <mxGeometry x="1550" y="10" width="60" height="10" as="geometry" />
         </mxCell>
         <mxCell id="wdB7McpbQnSKonyvfbZ4-38" value="雷点微服务" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1580" y="730" width="90" height="40" as="geometry" />
+          <mxGeometry x="1975" y="1105" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wdB7McpbQnSKonyvfbZ4-39" value="RocketMQ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1585" y="910" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wdB7McpbQnSKonyvfbZ4-40" value="RocketMQ作用 &amp;nbsp;Tips：&lt;br&gt;* 当掉单后，重新推送支付成功消息给业务线&lt;br&gt;* 当支付流程完成后，推送支付结果给业务线，支付结果可能是支付成功、支付不成功（银行卡余额不足）&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="645" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wdB7McpbQnSKonyvfbZ4-44" value="1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wdB7McpbQnSKonyvfbZ4-42" target="wdB7McpbQnSKonyvfbZ4-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wdB7McpbQnSKonyvfbZ4-45" value="2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.11;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wdB7McpbQnSKonyvfbZ4-42" target="wdB7McpbQnSKonyvfbZ4-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wdB7McpbQnSKonyvfbZ4-42" value="支付网关微服务" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1585" y="1015" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wdB7McpbQnSKonyvfbZ4-43" value="DB" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="1120" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wdB7McpbQnSKonyvfbZ4-46" value="RocketMQ &amp;nbsp;Tips：&lt;br&gt;1.&amp;nbsp;当掉单后，重新推送支付成功消息给业务线&lt;br&gt;2.&amp;nbsp;当支付流程完成后，推送消息给业务线&lt;br&gt;3.&amp;nbsp;雷点的分布式事务一致性" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="1010" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wdB7McpbQnSKonyvfbZ4-50" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;dashed=1;dashPattern=1 2;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wdB7McpbQnSKonyvfbZ4-47" target="wdB7McpbQnSKonyvfbZ4-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1490" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wdB7McpbQnSKonyvfbZ4-54" value="消息队列通知支付结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wdB7McpbQnSKonyvfbZ4-50">
+          <mxGeometry x="-0.5244" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wdB7McpbQnSKonyvfbZ4-47" value="RocketMQ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="670" width="470" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
