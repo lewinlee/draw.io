@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-19T15:22:35.333Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="0gmLeYcOH4Rc0IYt1VZW" version="12.9.14" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-19T15:23:45.891Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="mDIbc8eLGFjtSHSxSsmg" version="12.9.14" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
     <mxGraphModel dx="6702" dy="1104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="#ffffff" math="0" shadow="0">
       <root>
@@ -920,6 +920,9 @@
         <mxCell id="DOyT5R4UU_EAyAkKPx0C-27" value="RocketMQ顺序生产和顺序消费 &amp;nbsp;Tips：&lt;br&gt;&lt;ol&gt;&lt;li&gt;假设电商业务，支付完成后，每个支付网关微服务，只能按照订单号进行Hash算法，选择Topic下对应的Queue进行投递，则支付完成，积分累计，发货通知都会在在同一个Queue进行&lt;/li&gt;&lt;li&gt;Broker使用MessageListenerOrderly，也就是自带单线程消费消息方式（也就是Queue单线程锁定一个消费者进行投递消息），不能用并发消费类。&lt;/li&gt;&lt;li&gt;每个消费者，都必须单线程消费该Topic下的消息，每个消费者客户端不能开启多线程去消费。Queue不能被多个消费者同时消费，但可以多个Queue给一个消费者单线程消费&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2340" y="570" width="540" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="DOyT5R4UU_EAyAkKPx0C-68" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="DOyT5R4UU_EAyAkKPx0C-28" target="DOyT5R4UU_EAyAkKPx0C-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DOyT5R4UU_EAyAkKPx0C-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3035" y="1045" width="150" height="220" as="geometry" />
         </mxCell>
@@ -990,7 +993,7 @@
             <mxPoint x="-17" y="17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DOyT5R4UU_EAyAkKPx0C-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DOyT5R4UU_EAyAkKPx0C-50" target="DOyT5R4UU_EAyAkKPx0C-28">
+        <mxCell id="DOyT5R4UU_EAyAkKPx0C-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DOyT5R4UU_EAyAkKPx0C-50" target="DOyT5R4UU_EAyAkKPx0C-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DOyT5R4UU_EAyAkKPx0C-56" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DOyT5R4UU_EAyAkKPx0C-55">
@@ -1032,6 +1035,15 @@
         </mxCell>
         <mxCell id="DOyT5R4UU_EAyAkKPx0C-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="DOyT5R4UU_EAyAkKPx0C-29" target="DOyT5R4UU_EAyAkKPx0C-60">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DOyT5R4UU_EAyAkKPx0C-70" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="DOyT5R4UU_EAyAkKPx0C-66" target="DOyT5R4UU_EAyAkKPx0C-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DOyT5R4UU_EAyAkKPx0C-66" value="执行雷点充值业务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3040" y="1330" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DOyT5R4UU_EAyAkKPx0C-69" value="雷点DB" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="3083" y="1435" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
