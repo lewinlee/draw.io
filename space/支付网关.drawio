@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-04-19T14:56:04.037Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="ya9Pqqg5YIMiuhaAPsr3" version="12.9.14" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-19T15:15:44.717Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="tLZSPtYMymtD-aY6zkCn" version="12.9.14" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
-    <mxGraphModel dx="5321" dy="1102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="4815" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -919,6 +919,80 @@
         </mxCell>
         <mxCell id="DOyT5R4UU_EAyAkKPx0C-27" value="RocketMQ顺序生产和顺序消费 &amp;nbsp;Tips：&lt;br&gt;&lt;ol&gt;&lt;li&gt;假设电商业务，支付完成后，每个支付网关微服务，只能按照订单号进行Hash算法，选择Topic下对应的Queue进行投递，则支付完成，积分累计，发货通知都会在在同一个Queue进行&lt;/li&gt;&lt;li&gt;Broker使用MessageListenerOrderly，也就是自带单线程消费消息方式（也就是Queue单线程锁定一个消费者进行投递消息），不能用并发消费类。&lt;/li&gt;&lt;li&gt;每个消费者，都必须单线程消费该Topic下的消息，每个消费者客户端不能开启多线程去消费。Queue不能被多个消费者同时消费，但可以多个Queue给一个消费者单线程消费&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2340" y="570" width="540" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="DOyT5R4UU_EAyAkKPx0C-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3065" y="1200" width="150" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="DOyT5R4UU_EAyAkKPx0C-29" value="Redis Cluster&lt;br&gt;Master" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3080" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DOyT5R4UU_EAyAkKPx0C-30" value="Redis Cluster&lt;br&gt;Master" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3080" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DOyT5R4UU_EAyAkKPx0C-31" value="Redis Cluster&lt;br&gt;Master" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3080" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DOyT5R4UU_EAyAkKPx0C-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DOyT5R4UU_EAyAkKPx0C-32" target="DOyT5R4UU_EAyAkKPx0C-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2785" y="1270" />
+              <mxPoint x="2785" y="1310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOyT5R4UU_EAyAkKPx0C-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DOyT5R4UU_EAyAkKPx0C-32" target="DOyT5R4UU_EAyAkKPx0C-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DOyT5R4UU_EAyAkKPx0C-32" value="雷点微服务" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2650" y="1250" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DOyT5R4UU_EAyAkKPx0C-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DOyT5R4UU_EAyAkKPx0C-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2835" y="1310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2785" y="1360" />
+              <mxPoint x="2785" y="1310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOyT5R4UU_EAyAkKPx0C-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DOyT5R4UU_EAyAkKPx0C-33" target="DOyT5R4UU_EAyAkKPx0C-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2590" y="1360" />
+              <mxPoint x="2590" y="1180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOyT5R4UU_EAyAkKPx0C-33" value="雷点微服务" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2650" y="1340" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DOyT5R4UU_EAyAkKPx0C-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DOyT5R4UU_EAyAkKPx0C-34" target="DOyT5R4UU_EAyAkKPx0C-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DOyT5R4UU_EAyAkKPx0C-36" value="执行Lua脚本加锁" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DOyT5R4UU_EAyAkKPx0C-35">
+          <mxGeometry x="-0.2667" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOyT5R4UU_EAyAkKPx0C-34" value="根据Hash算法选择一个节点" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2835" y="1270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DOyT5R4UU_EAyAkKPx0C-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DOyT5R4UU_EAyAkKPx0C-40" target="DOyT5R4UU_EAyAkKPx0C-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DOyT5R4UU_EAyAkKPx0C-40" value="获取锁成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2835" y="1140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DOyT5R4UU_EAyAkKPx0C-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DOyT5R4UU_EAyAkKPx0C-43" target="DOyT5R4UU_EAyAkKPx0C-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DOyT5R4UU_EAyAkKPx0C-47" value="每隔10秒看一下，&lt;br&gt;如果还持有锁则延长&lt;br&gt;生存时间" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DOyT5R4UU_EAyAkKPx0C-45">
+          <mxGeometry x="-0.1768" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOyT5R4UU_EAyAkKPx0C-43" value="watch dog看门狗" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2815" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
