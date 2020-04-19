@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-19T09:18:21.962Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="3qVJ3Ky6Ed6KWfekcfM1" version="12.9.14" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-19T09:19:43.702Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="Y4AW5Pc4BP4das6TfoWG" version="12.9.14" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
     <mxGraphModel dx="2021" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="#ffffff" math="0" shadow="0">
       <root>
@@ -635,7 +635,7 @@
         <mxCell id="wdB7McpbQnSKonyvfbZ4-46" value="RocketMQ分布式事务 &amp;nbsp;Tips：&lt;br&gt;1.&amp;nbsp;支付网关创建雷点订单&lt;br&gt;2.&amp;nbsp;发送消息给RocketMQ&lt;br&gt;3.&amp;nbsp;RocketMQ将此次消息标记“半消息”，表示事务进行到一半&lt;br&gt;4.&amp;nbsp;将消息发回给支付网关，表示已经标记完毕。&lt;br&gt;5. 支付网关调用雷点微服务充值接口&lt;br&gt;6.&amp;nbsp;雷点微服务完成充值业务&lt;br&gt;7.&amp;nbsp;雷点微服务返回消息给支付网关&lt;br&gt;8.&amp;nbsp;支付网关微服务收到雷点充值结果，并标记可投递消息，表示雷点充值成功&lt;br&gt;9.&amp;nbsp;MQ将消息推送给业务线，说明雷点充值成功" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2210" y="820" width="360" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="wdB7McpbQnSKonyvfbZ4-50" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;dashed=1;dashPattern=1 2;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="wdB7McpbQnSKonyvfbZ4-47" target="wdB7McpbQnSKonyvfbZ4-52" edge="1">
+        <mxCell id="wdB7McpbQnSKonyvfbZ4-50" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="wdB7McpbQnSKonyvfbZ4-47" target="wdB7McpbQnSKonyvfbZ4-52" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1490" y="180" as="targetPoint" />
           </mxGeometry>
