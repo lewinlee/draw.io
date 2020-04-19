@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-19T09:55:35.033Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="0GVGCqfzVWHHMxOvhVhc" version="12.9.14" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-19T09:58:58.672Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="ltLxRe9j49-T420sOpPI" version="12.9.14" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
     <mxGraphModel dx="5321" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="#ffffff" math="0" shadow="0">
       <root>
@@ -872,6 +872,9 @@
         </mxCell>
         <mxCell id="59b1bcbrKsCMYZeMCs7V-74" value="自动续费 &amp;nbsp;Tips：&lt;br&gt;1.&amp;nbsp;如果调用网关这步压力较大，则再拆分多个微服务，查询签约信息之后，通过feign调用和Ribbon轮询策略，将请求分发给每个签约处理微服务&lt;br&gt;2.&amp;nbsp;签约失败的可以再重试多2次，一共重试3次机会，重试失败则进行解约处理" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-110" y="710" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="59b1bcbrKsCMYZeMCs7V-78" value="Guava限流" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="560" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
