@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-19T09:01:39.424Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="f6iBqjucLxdTdBlrIjGA" version="12.9.14" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-19T09:03:03.833Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="6BjEQR0LIVvwBfYqiKv4" version="12.9.14" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
     <mxGraphModel dx="2021" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="#ffffff" math="0" shadow="0">
       <root>
@@ -667,8 +667,24 @@
         <mxCell id="59b1bcbrKsCMYZeMCs7V-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="wdB7McpbQnSKonyvfbZ4-86" target="59b1bcbrKsCMYZeMCs7V-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="59b1bcbrKsCMYZeMCs7V-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="wdB7McpbQnSKonyvfbZ4-86" target="59b1bcbrKsCMYZeMCs7V-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="59b1bcbrKsCMYZeMCs7V-23" value="路由" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="59b1bcbrKsCMYZeMCs7V-21">
+          <mxGeometry x="-0.4222" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="59b1bcbrKsCMYZeMCs7V-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="wdB7McpbQnSKonyvfbZ4-86" target="59b1bcbrKsCMYZeMCs7V-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="59b1bcbrKsCMYZeMCs7V-24" value="路由" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="59b1bcbrKsCMYZeMCs7V-22">
+          <mxGeometry x="-0.4444" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="wdB7McpbQnSKonyvfbZ4-86" value="nameserver&amp;nbsp;集群&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1430" y="1500" width="450" height="70" as="geometry" />
+          <mxGeometry x="1430" y="1440" width="450" height="70" as="geometry" />
         </mxCell>
         <mxCell id="wdB7McpbQnSKonyvfbZ4-88" value="RocketMQ&amp;nbsp;从" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1712.5" y="1620" width="110" height="40" as="geometry" />
@@ -677,10 +693,10 @@
           <mxGeometry x="1712.5" y="1680" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iDwauWoH-mrjECuvpgRD-1" value="nameserver" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1535" y="1515" width="110" height="40" as="geometry" />
+          <mxGeometry x="1535" y="1455" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iDwauWoH-mrjECuvpgRD-2" value="nameserver" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1710" y="1515" width="110" height="40" as="geometry" />
+          <mxGeometry x="1710" y="1455" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iDwauWoH-mrjECuvpgRD-3" value="MySQL主" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="885" y="1040" width="60" height="80" as="geometry" />
