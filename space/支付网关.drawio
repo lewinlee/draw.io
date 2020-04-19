@@ -1,17 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2020-04-19T08:59:23.212Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="F4b1wrAgO5NJ8JMUSaRc" version="12.9.14" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-19T09:01:39.424Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="f6iBqjucLxdTdBlrIjGA" version="12.9.14" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
     <mxGraphModel dx="2021" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="59b1bcbrKsCMYZeMCs7V-11" value="Consumer集群" style="rounded=0;whiteSpace=wrap;html=1;align=right;" vertex="1" parent="1">
-          <mxGeometry x="2120" y="1380" width="180" height="300" as="geometry" />
+          <mxGeometry x="1990" y="1470" width="180" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="59b1bcbrKsCMYZeMCs7V-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="59b1bcbrKsCMYZeMCs7V-10" target="wdB7McpbQnSKonyvfbZ4-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="59b1bcbrKsCMYZeMCs7V-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="59b1bcbrKsCMYZeMCs7V-10" target="59b1bcbrKsCMYZeMCs7V-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="59b1bcbrKsCMYZeMCs7V-10" value="Producer集群" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="1380" width="190" height="300" as="geometry" />
+          <mxGeometry x="1100" y="1470" width="190" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="59b1bcbrKsCMYZeMCs7V-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="59b1bcbrKsCMYZeMCs7V-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1990" y="1620" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="59b1bcbrKsCMYZeMCs7V-3" value="RocketMQ集群" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="1510" width="450" height="140" as="geometry" />
+          <mxGeometry x="1430" y="1600" width="450" height="140" as="geometry" />
         </mxCell>
         <mxCell id="wdB7McpbQnSKonyvfbZ4-52" value="业务线" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="670" y="40" width="730" height="130" as="geometry" />
@@ -545,7 +556,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wdB7McpbQnSKonyvfbZ4-39" value="RocketMQ" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="wdB7McpbQnSKonyvfbZ4-39" value="RocketMQ集群" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1585" y="910" width="410" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wdB7McpbQnSKonyvfbZ4-40" value="RocketMQ作用 &amp;nbsp;Tips：&lt;br&gt;* 当掉单后，重新推送支付成功消息给业务线&lt;br&gt;* 当支付流程完成后，推送支付结果给业务线，支付结果可能是支付成功、支付不成功（银行卡余额不足）&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -645,28 +656,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wdB7McpbQnSKonyvfbZ4-84" value="RocketMQ&amp;nbsp;主" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1665" y="1530" width="110" height="40" as="geometry" />
+          <mxGeometry x="1535" y="1620" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="59b1bcbrKsCMYZeMCs7V-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wdB7McpbQnSKonyvfbZ4-85" target="wdB7McpbQnSKonyvfbZ4-89">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wdB7McpbQnSKonyvfbZ4-85" value="RocketMQ&amp;nbsp;主" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1665" y="1590" width="110" height="40" as="geometry" />
+          <mxGeometry x="1535" y="1680" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="59b1bcbrKsCMYZeMCs7V-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="wdB7McpbQnSKonyvfbZ4-86" target="59b1bcbrKsCMYZeMCs7V-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wdB7McpbQnSKonyvfbZ4-86" value="nameserver&amp;nbsp;集群&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1560" y="1410" width="450" height="70" as="geometry" />
+          <mxGeometry x="1430" y="1500" width="450" height="70" as="geometry" />
         </mxCell>
         <mxCell id="wdB7McpbQnSKonyvfbZ4-88" value="RocketMQ&amp;nbsp;从" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1842.5" y="1530" width="110" height="40" as="geometry" />
+          <mxGeometry x="1712.5" y="1620" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wdB7McpbQnSKonyvfbZ4-89" value="RocketMQ&amp;nbsp;从" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1842.5" y="1590" width="110" height="40" as="geometry" />
+          <mxGeometry x="1712.5" y="1680" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iDwauWoH-mrjECuvpgRD-1" value="nameserver" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1665" y="1425" width="110" height="40" as="geometry" />
+          <mxGeometry x="1535" y="1515" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iDwauWoH-mrjECuvpgRD-2" value="nameserver" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1840" y="1425" width="110" height="40" as="geometry" />
+          <mxGeometry x="1710" y="1515" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iDwauWoH-mrjECuvpgRD-3" value="MySQL主" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="885" y="1040" width="60" height="80" as="geometry" />
@@ -678,22 +692,25 @@
           <mxGeometry x="1245" y="1040" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="59b1bcbrKsCMYZeMCs7V-4" value="Producer" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="1400" width="80" height="80" as="geometry" />
+          <mxGeometry x="1200" y="1490" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="59b1bcbrKsCMYZeMCs7V-5" value="Producer" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="1490" width="80" height="80" as="geometry" />
+          <mxGeometry x="1200" y="1580" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="59b1bcbrKsCMYZeMCs7V-6" value="Producer" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="1580" width="80" height="80" as="geometry" />
+          <mxGeometry x="1200" y="1670" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="59b1bcbrKsCMYZeMCs7V-7" value="Consumer" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="2130" y="1400" width="80" height="80" as="geometry" />
+          <mxGeometry x="2000" y="1490" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="59b1bcbrKsCMYZeMCs7V-8" value="Consumer" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="2130" y="1490" width="80" height="80" as="geometry" />
+          <mxGeometry x="2000" y="1580" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="59b1bcbrKsCMYZeMCs7V-9" value="Consumer" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="2130" y="1580" width="80" height="80" as="geometry" />
+          <mxGeometry x="2000" y="1670" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="59b1bcbrKsCMYZeMCs7V-16" value="RocketMQ集群高可用 &amp;nbsp;Tips：&lt;br&gt;&lt;div&gt;1. NameServer之间相互独立，不交换信息，每个NameServer需要了解每个生产者、每个消费者、每个Broker三者状态&lt;/div&gt;&lt;div&gt;2. 新加入的Producer，通过上报自身信息，从NameServer获取各个BrokerMaster信息，才知道存储在哪个Broker的哪个Queue&lt;/div&gt;&lt;div&gt;3. 新加入的Consumer，通过上报自身信息，从NameServer获取各个BrokerMaster信息，才知道消费在哪个Broker的哪个Queue&lt;/div&gt;&lt;div&gt;4. 每个Producer、Broker、Consumer，都需要指定多个NameServer，比如一共3台NameServer，则配置3台NameServer地址和端口号&lt;/div&gt;&lt;span&gt;5. 每个BrokerMaster，数据都是一样的，因为是双写功能，只是同步复制模式还是异步复制模式，每个复制都通过NameServer&lt;/span&gt;&amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="1450" width="360" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
