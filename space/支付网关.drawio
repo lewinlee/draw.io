@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-19T16:37:05.757Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="symuC4pcLXlUv2R-ZDCN" version="12.9.14" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-19T16:37:56.006Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="hsRK1Ihv5TmHPHt3nw1k" version="12.9.14" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
     <mxGraphModel dx="6702" dy="1102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="#ffffff" math="0" shadow="0">
       <root>
@@ -660,7 +660,7 @@
         <mxCell id="wdB7McpbQnSKonyvfbZ4-78" value="业务线" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;align=center;" parent="1" vertex="1">
           <mxGeometry x="2110" y="890" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wdB7McpbQnSKonyvfbZ4-81" value="RocketMQ分布式事务异常处理情况 &amp;nbsp;Tips：&lt;br&gt;error1.&amp;nbsp;如果支付网关异常状况导致创建订单失败，则直接通知业务线异常状况，和原网关业务一致&lt;br&gt;error2.&amp;nbsp;如果创建完订单后，支付网关调用RocketMQ，RocketMQ宕机，则启动RocketMQ高可用方案，保证消息能传入消息队列（保证RocketMQ不会宕机）&lt;br&gt;error3.&amp;nbsp;雷点支付服务宕机或插入数据库失败，返回异常信息，并在本地记录下来 &amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="wdB7McpbQnSKonyvfbZ4-81" value="RocketMQ分布式事务异常处理情况 &amp;nbsp;Tips：&lt;br&gt;error1.&amp;nbsp;如果支付网关异常状况导致创建订单失败，则直接通知业务线异常状况，和原网关业务一致&lt;br&gt;error2.&amp;nbsp;如果创建完订单后，支付网关调用RocketMQ，RocketMQ宕机，则启动RocketMQ高可用方案，保证消息能传入消息队列（保证RocketMQ不会宕机）&lt;br&gt;error3.&amp;nbsp;雷点支付服务宕机或插入数据库失败，返回异常信息，订单数据不必回滚，只需修改订单状态为异常状态即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2210" y="1050" width="360" height="220" as="geometry" />
         </mxCell>
         <mxCell id="59b1bcbrKsCMYZeMCs7V-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="wdB7McpbQnSKonyvfbZ4-84" target="wdB7McpbQnSKonyvfbZ4-88" edge="1">
