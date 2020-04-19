@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-19T09:17:01.033Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="ZLf9Mz8LdMlpZa_Verc6" version="12.9.14" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-19T09:18:21.962Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="3qVJ3Ky6Ed6KWfekcfM1" version="12.9.14" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
     <mxGraphModel dx="2021" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="#ffffff" math="0" shadow="0">
       <root>
@@ -757,11 +757,6 @@
             <mxPoint x="1640" y="1250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="59b1bcbrKsCMYZeMCs7V-32" value="&lt;font style=&quot;font-size: 20px&quot;&gt;RocketMQ集群详细架构图&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="59b1bcbrKsCMYZeMCs7V-30">
-          <mxGeometry x="-0.808" y="-5" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="59b1bcbrKsCMYZeMCs7V-33" value="&lt;div&gt;&lt;div&gt;Producer高可用配合方案&lt;/div&gt;&lt;ol&gt;&lt;li&gt;重试机制：做好重试，但是重试的Message key必须唯一。&lt;br&gt;&lt;/li&gt;&lt;li&gt;重试但不能无限次尝试，比如第一次1秒，第二次10秒，第三次1分钟，第四次5分钟，重试总次数不能太多，比如总次数20次后就停止了，然后发预警邮件通知运维或开发人员&lt;br&gt;&lt;/li&gt;&lt;li&gt;保存相关投递日志，比如关键字段，投递时间、投递状态、重试次数、请求体、响应体&lt;br&gt;&lt;/li&gt;&lt;li&gt;不采用oneway（无需等待响应）发送，使用同步或者异步方式发送&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="870" y="1880" width="420" height="140" as="geometry" />
         </mxCell>
@@ -793,6 +788,15 @@
           <mxGeometry x="2004.996370431161" y="829.9997926254513" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="59b1bcbrKsCMYZeMCs7V-40" value="" style="endArrow=none;dashed=1;html=1;entryX=0.902;entryY=1.1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="59b1bcbrKsCMYZeMCs7V-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1505.18" y="1176" as="sourcePoint" />
+            <mxPoint x="1822.5000000000002" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="59b1bcbrKsCMYZeMCs7V-42" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 20px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline&quot;&gt;RocketMQ集群高可用详细架构图&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1370" width="320" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
