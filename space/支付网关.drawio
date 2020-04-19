@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-19T09:05:57.833Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="sIgyqZMyKvTb6vy0F8CO" version="12.9.14" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-19T09:14:38.517Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="Bbm-joRms9sjtIxJXXDh" version="12.9.14" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
     <mxGraphModel dx="2021" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="#ffffff" math="0" shadow="0">
       <root>
@@ -761,6 +761,27 @@
           <mxGeometry x="-0.808" y="-5" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="59b1bcbrKsCMYZeMCs7V-33" value="&lt;div&gt;&lt;div&gt;Producer高可用配合方案&lt;/div&gt;&lt;ol&gt;&lt;li&gt;重试机制：做好重试，但是重试的Message key必须唯一。&lt;br&gt;&lt;/li&gt;&lt;li&gt;重试但不能无限次尝试，比如第一次1秒，第二次10秒，第三次1分钟，第四次5分钟，重试总次数不能太多，比如总次数20次后就停止了，然后发预警邮件通知运维或开发人员&lt;br&gt;&lt;/li&gt;&lt;li&gt;保存相关投递日志，比如关键字段，投递时间、投递状态、重试次数、请求体、响应体&lt;br&gt;&lt;/li&gt;&lt;li&gt;不采用oneway（无需等待响应）发送，使用同步或者异步方式发送&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1880" width="420" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="59b1bcbrKsCMYZeMCs7V-34" value="" style="endArrow=none;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="59b1bcbrKsCMYZeMCs7V-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1605" y="1800" as="sourcePoint" />
+            <mxPoint x="1655" y="1750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="59b1bcbrKsCMYZeMCs7V-35" value="" style="endArrow=none;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="59b1bcbrKsCMYZeMCs7V-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1140" y="1820" as="sourcePoint" />
+            <mxPoint x="1190" y="1770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="59b1bcbrKsCMYZeMCs7V-36" value="&lt;div&gt;Broker高可用配合方案&lt;/div&gt;&lt;ol&gt;&lt;li&gt;多主多从架构，需要多机房&lt;br&gt;&lt;/li&gt;&lt;li&gt;同步双写（而不是单写然后同步队列，避免同步时挂了）、异步刷盘 (同步刷盘则可靠性更高，但是性能差点，根据业务选择)&lt;br&gt;&lt;/li&gt;&lt;li&gt;机器断电重启：异步刷盘，消息丢失；同步刷盘消息不丢失&lt;br&gt;&lt;/li&gt;&lt;li&gt;硬件故障：可能存在丢失，看队列架构&lt;br&gt;&lt;/li&gt;&lt;li&gt;容灾：同城容灾、异地容灾、两地三中心容灾等&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;ol&gt;&lt;/ol&gt;&lt;ol&gt;&lt;/ol&gt;&lt;ol&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1427.5" y="1880" width="420" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="59b1bcbrKsCMYZeMCs7V-37" value="&lt;div&gt;Consumer高可用配合方案&lt;/div&gt;&lt;ol&gt;&lt;li&gt;消息队列一般都提供的ack机制，发送者为了保证消息肯定消费成功，只有消费者明确表示消费成功，队列才会认为消息消费成功，中途断电、抛出异常等都不会认为成功——即都会重新投递，每次在确保处理完这个消息之后，在代码里调用ack，告诉消息队列消费成功&lt;br&gt;&lt;/li&gt;&lt;li&gt;消费端务必做好幂等性处理（Redis处理幂等性，防止重复消费）&lt;br&gt;&lt;/li&gt;&lt;li&gt;消息消费务必保留日志，即消息的元数据和消息体&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="1880" width="420" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
