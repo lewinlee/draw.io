@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-19T09:30:13.865Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="ujoWUR_cm8jq3a9thJHd" version="12.9.14" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-19T09:34:06.528Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="iNjCcjad2-7ohqFQoM5-" version="12.9.14" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
     <mxGraphModel dx="5321" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="#ffffff" math="0" shadow="0">
       <root>
@@ -795,11 +795,19 @@
         <mxCell id="59b1bcbrKsCMYZeMCs7V-42" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 20px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline&quot;&gt;RocketMQ集群高可用详细架构图&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="1080" y="1370" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="59b1bcbrKsCMYZeMCs7V-53" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;fontColor=#FF0000;" edge="1" parent="1" source="59b1bcbrKsCMYZeMCs7V-48" target="VvI8yXbkPYTi_8kJMqFg-63">
+        <mxCell id="59b1bcbrKsCMYZeMCs7V-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;fontColor=#FF0000;" edge="1" parent="1" source="59b1bcbrKsCMYZeMCs7V-48" target="VvI8yXbkPYTi_8kJMqFg-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="59b1bcbrKsCMYZeMCs7V-54" value="&lt;font color=&quot;#000000&quot;&gt;一次性查出满足自动续费的会员签约信息&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="59b1bcbrKsCMYZeMCs7V-53">
-          <mxGeometry x="-0.5945" relative="1" as="geometry">
+        <mxCell id="59b1bcbrKsCMYZeMCs7V-57" value="&lt;span&gt;&lt;font color=&quot;#000000&quot;&gt;一次性查出满足自动续费的会员签约信息&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="59b1bcbrKsCMYZeMCs7V-56">
+          <mxGeometry x="-0.7849" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="59b1bcbrKsCMYZeMCs7V-59" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;fontColor=#FF0000;" edge="1" parent="1" source="59b1bcbrKsCMYZeMCs7V-48" target="59b1bcbrKsCMYZeMCs7V-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="59b1bcbrKsCMYZeMCs7V-60" value="&lt;font color=&quot;#000000&quot;&gt;将签约信息保存到Redis方便后续数据处理，避免频繁读取MySQL&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="59b1bcbrKsCMYZeMCs7V-59">
+          <mxGeometry x="0.3909" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -817,6 +825,9 @@
         </mxCell>
         <mxCell id="59b1bcbrKsCMYZeMCs7V-51" value="SpringBoot自动续费定时器" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-120" y="570" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="59b1bcbrKsCMYZeMCs7V-58" value="Redis Cluster" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="840" width="110" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
