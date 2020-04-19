@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-19T09:03:03.833Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="6BjEQR0LIVvwBfYqiKv4" version="12.9.14" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-19T09:03:30.647Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="VjbAu6r3AYfd-L40tIzv" version="12.9.14" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
     <mxGraphModel dx="2021" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="#ffffff" math="0" shadow="0">
       <root>
@@ -652,13 +652,13 @@
         <mxCell id="wdB7McpbQnSKonyvfbZ4-81" value="RocketMQ分布式事务异常处理情况 &amp;nbsp;Tips：&lt;br&gt;error1.&amp;nbsp;如果支付网关异常状况导致创建订单失败，则直接通知业务线异常状况，和原网关业务一致&lt;br&gt;error2.&amp;nbsp;如果创建完订单后，支付网关调用RocketMQ，RocketMQ宕机，则启动RocketMQ高可用方案，保证消息能传入消息队列 &amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2210" y="1050" width="360" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="59b1bcbrKsCMYZeMCs7V-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wdB7McpbQnSKonyvfbZ4-84" target="wdB7McpbQnSKonyvfbZ4-88">
+        <mxCell id="59b1bcbrKsCMYZeMCs7V-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wdB7McpbQnSKonyvfbZ4-84" target="wdB7McpbQnSKonyvfbZ4-88">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wdB7McpbQnSKonyvfbZ4-84" value="RocketMQ&amp;nbsp;主" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1535" y="1620" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="59b1bcbrKsCMYZeMCs7V-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wdB7McpbQnSKonyvfbZ4-85" target="wdB7McpbQnSKonyvfbZ4-89">
+        <mxCell id="59b1bcbrKsCMYZeMCs7V-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wdB7McpbQnSKonyvfbZ4-85" target="wdB7McpbQnSKonyvfbZ4-89">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wdB7McpbQnSKonyvfbZ4-85" value="RocketMQ&amp;nbsp;主" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
