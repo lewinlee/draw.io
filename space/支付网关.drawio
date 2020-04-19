@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-19T09:14:38.517Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="Bbm-joRms9sjtIxJXXDh" version="12.9.14" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-19T09:14:54.568Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="0vEYfjuX-Cq8Ej3AlVLy" version="12.9.14" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
     <mxGraphModel dx="2021" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="#ffffff" math="0" shadow="0">
       <root>
@@ -782,6 +782,12 @@
         </mxCell>
         <mxCell id="59b1bcbrKsCMYZeMCs7V-37" value="&lt;div&gt;Consumer高可用配合方案&lt;/div&gt;&lt;ol&gt;&lt;li&gt;消息队列一般都提供的ack机制，发送者为了保证消息肯定消费成功，只有消费者明确表示消费成功，队列才会认为消息消费成功，中途断电、抛出异常等都不会认为成功——即都会重新投递，每次在确保处理完这个消息之后，在代码里调用ack，告诉消息队列消费成功&lt;br&gt;&lt;/li&gt;&lt;li&gt;消费端务必做好幂等性处理（Redis处理幂等性，防止重复消费）&lt;br&gt;&lt;/li&gt;&lt;li&gt;消息消费务必保留日志，即消息的元数据和消息体&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1970" y="1880" width="420" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="59b1bcbrKsCMYZeMCs7V-38" value="" style="endArrow=none;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="59b1bcbrKsCMYZeMCs7V-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2120" y="1840" as="sourcePoint" />
+            <mxPoint x="2080" y="1770" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
