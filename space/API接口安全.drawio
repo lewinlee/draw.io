@@ -1,14 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2020-04-23T03:03:25.353Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="nDbXuIu-B0-c2hPuiulK" version="12.9.14" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-23T03:23:06.674Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="0Er5VV8tVXevad9NCmIb" version="12.9.14" type="github">
   <diagram id="9oinRK-apqOSIUHt4nKj" name="第 1 页">
-    <mxGraphModel dx="1515" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1515" dy="3954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7YEFFeuLNpMe9hI31lZH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7YEFFeuLNpMe9hI31lZH-2" target="7YEFFeuLNpMe9hI31lZH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7YEFFeuLNpMe9hI31lZH-5" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7YEFFeuLNpMe9hI31lZH-4">
+          <mxGeometry x="-0.1846" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7YEFFeuLNpMe9hI31lZH-2" value="APP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7YEFFeuLNpMe9hI31lZH-3" value="商户后台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1020" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7YEFFeuLNpMe9hI31lZH-7" value="&lt;ol&gt;&lt;li style=&quot;text-align: left&quot;&gt;客户端（PC、移动端、平板等）首次登陆，服务端签发token（通过JWT生成token），在token中放入用户信息（如userId）等返回给客户端&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;客户端访问服务端接口，需要在头部携带token（从request.getHeader获取JWT字符串），跟表单一并提交到服务端&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;服务端在web层同意解析token鉴权，同时取出用户信息（如userID）并继续向底层传递，传到服务层操作业务逻辑&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;服务端在service层取到用户信息（如userID）后，执行相应的业务逻辑操作&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="-10" width="450" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
