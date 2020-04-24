@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-24T15:45:00.934Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="BJ-p7nanGOpZweofZYZP" version="13.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-24T15:45:28.380Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3756.400 QQBrowser/10.5.4039.400" etag="ErTP-gToLuC-CR5AVxqF" version="13.0.1" type="github">
   <diagram id="GGTAP_Dss6p3u6D_uiOW" name="第 1 页">
     <mxGraphModel dx="1515" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -31,10 +31,16 @@
         <mxCell id="dlgCpanpwa_J9QGgFaTf-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dlgCpanpwa_J9QGgFaTf-6" target="dlgCpanpwa_J9QGgFaTf-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="dlgCpanpwa_J9QGgFaTf-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dlgCpanpwa_J9QGgFaTf-6" target="dlgCpanpwa_J9QGgFaTf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dlgCpanpwa_J9QGgFaTf-6" value="Keepalived（Master）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="380" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dlgCpanpwa_J9QGgFaTf-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dlgCpanpwa_J9QGgFaTf-7" target="dlgCpanpwa_J9QGgFaTf-5">
+        <mxCell id="dlgCpanpwa_J9QGgFaTf-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="dlgCpanpwa_J9QGgFaTf-7" target="dlgCpanpwa_J9QGgFaTf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dlgCpanpwa_J9QGgFaTf-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="dlgCpanpwa_J9QGgFaTf-7" target="dlgCpanpwa_J9QGgFaTf-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dlgCpanpwa_J9QGgFaTf-7" value="Keepalived（Backup）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
