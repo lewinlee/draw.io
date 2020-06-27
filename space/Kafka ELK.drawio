@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-27T09:40:28.703Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="ZT6EzKW15baDpu6xO31M" version="13.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-27T09:43:47.204Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="PmnJVdfE3kgc1bo_7a6k" version="13.3.5" type="github">
   <diagram id="3makm_YaJrVtaU_NSyJ_" name="Page-1">
     <mxGraphModel dx="4401" dy="4498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="5XpMq87SmSRbmd2YtVUi-2" value="Broker_0" style="rounded=0;whiteSpace=wrap;html=1;opacity=90;align=left;" parent="1" vertex="1">
           <mxGeometry x="580" y="190" width="770" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="5XpMq87SmSRbmd2YtVUi-3" value="日志主题&lt;br&gt;Partition_0&lt;br&gt;Leader" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=left;" parent="1" vertex="1">
+        <mxCell id="5XpMq87SmSRbmd2YtVUi-3" value="日志主题&lt;br&gt;Partition_0&lt;br&gt;Leader" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="670" y="200" width="310" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5XpMq87SmSRbmd2YtVUi-9" value="ES1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -64,13 +64,13 @@
         <mxCell id="s8ctC6jzm8qqU47r-SyN-23" value="5" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=center;" vertex="1" parent="1">
           <mxGeometry x="890" y="215" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="s8ctC6jzm8qqU47r-SyN-26" value="日志主题&lt;br&gt;Partition_2&lt;br&gt;Follower" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=left;" vertex="1" parent="1">
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-26" value="日志主题&lt;br&gt;Partition_2&lt;br&gt;Follower" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1000" y="200" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="s8ctC6jzm8qqU47r-SyN-53" value="Broker_1" style="rounded=0;whiteSpace=wrap;html=1;opacity=90;align=left;" vertex="1" parent="1">
           <mxGeometry x="580" y="340" width="770" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="s8ctC6jzm8qqU47r-SyN-54" value="日志主题&lt;br&gt;Partition_1&lt;br&gt;Leader" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=left;" vertex="1" parent="1">
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-54" value="日志主题&lt;br&gt;Partition_1&lt;br&gt;Leader" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="670" y="350" width="310" height="50" as="geometry" />
         </mxCell>
         <mxCell id="s8ctC6jzm8qqU47r-SyN-55" value="0" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=center;" vertex="1" parent="1">
@@ -91,13 +91,13 @@
         <mxCell id="s8ctC6jzm8qqU47r-SyN-60" value="5" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=center;" vertex="1" parent="1">
           <mxGeometry x="890" y="365" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="s8ctC6jzm8qqU47r-SyN-61" value="日志主题&lt;br&gt;Partition_0&lt;br&gt;Follower" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=left;" vertex="1" parent="1">
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-61" value="日志主题&lt;br&gt;Partition_0&lt;br&gt;Follower" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1000" y="350" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="s8ctC6jzm8qqU47r-SyN-81" value="Broker_2" style="rounded=0;whiteSpace=wrap;html=1;opacity=90;align=left;" vertex="1" parent="1">
           <mxGeometry x="580" y="490" width="770" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="s8ctC6jzm8qqU47r-SyN-82" value="日志主题&lt;br&gt;Partition_2&lt;br&gt;Leader" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=left;" vertex="1" parent="1">
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-82" value="日志主题&lt;br&gt;Partition_2&lt;br&gt;Leader" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="670" y="500" width="310" height="50" as="geometry" />
         </mxCell>
         <mxCell id="s8ctC6jzm8qqU47r-SyN-83" value="0" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=center;" vertex="1" parent="1">
@@ -115,13 +115,13 @@
         <mxCell id="s8ctC6jzm8qqU47r-SyN-87" value="4" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=center;" vertex="1" parent="1">
           <mxGeometry x="860" y="515" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="s8ctC6jzm8qqU47r-SyN-89" value="日志主题&lt;br&gt;Partition_1&lt;br&gt;Follower" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=left;" vertex="1" parent="1">
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-89" value="日志主题&lt;br&gt;Partition_1&lt;br&gt;Follower" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1000" y="500" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="s8ctC6jzm8qqU47r-SyN-109" value="6" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=center;" vertex="1" parent="1">
           <mxGeometry x="920" y="365" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="s8ctC6jzm8qqU47r-SyN-110" value="报表主题&lt;br&gt;Partition_2&lt;br&gt;Leader" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=left;" vertex="1" parent="1">
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-110" value="报表主题&lt;br&gt;Partition_2&lt;br&gt;Leader" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="670" y="260" width="310" height="50" as="geometry" />
         </mxCell>
         <mxCell id="s8ctC6jzm8qqU47r-SyN-111" value="0" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=center;" vertex="1" parent="1">
@@ -135,6 +135,54 @@
         </mxCell>
         <mxCell id="s8ctC6jzm8qqU47r-SyN-115" value="3" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=center;" vertex="1" parent="1">
           <mxGeometry x="830" y="275" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-119" value="报表主题&lt;br&gt;Partition_0&lt;br&gt;Leader" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="670" y="410" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-120" value="0" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=center;" vertex="1" parent="1">
+          <mxGeometry x="740" y="425" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-121" value="1" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=center;" vertex="1" parent="1">
+          <mxGeometry x="770" y="425" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-122" value="2" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=center;" vertex="1" parent="1">
+          <mxGeometry x="800" y="425" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-123" value="3" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=center;" vertex="1" parent="1">
+          <mxGeometry x="830" y="425" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-125" value="4" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=center;" vertex="1" parent="1">
+          <mxGeometry x="860" y="425" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-126" value="5" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=center;" vertex="1" parent="1">
+          <mxGeometry x="890" y="425" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-127" value="报表主题&lt;br&gt;Partition_1&lt;br&gt;Leader" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="670" y="560" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-128" value="0" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=center;" vertex="1" parent="1">
+          <mxGeometry x="740" y="575" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-129" value="1" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=center;" vertex="1" parent="1">
+          <mxGeometry x="770" y="575" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-130" value="2" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=center;" vertex="1" parent="1">
+          <mxGeometry x="800" y="575" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-131" value="3" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=center;" vertex="1" parent="1">
+          <mxGeometry x="830" y="575" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-132" value="4" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=center;" vertex="1" parent="1">
+          <mxGeometry x="860" y="575" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-133" value="报表主题&lt;br&gt;Partition_2&lt;br&gt;Follower" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="410" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-134" value="报表主题&lt;br&gt;Partition_0&lt;br&gt;Follower" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="560" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-135" value="报表主题&lt;br&gt;Partition_1&lt;br&gt;Follower" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="260" width="70" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
