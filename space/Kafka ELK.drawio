@@ -1,68 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2020-06-27T08:48:34.695Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="PMnSm1U_3uQwUSxYiHW1" version="13.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-27T08:52:30.181Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="MN1MDHzW4Sj9EcDWaq4h" version="13.3.5" type="github">
   <diagram id="3makm_YaJrVtaU_NSyJ_" name="Page-1">
-    <mxGraphModel dx="791" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1230" dy="1163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5XpMq87SmSRbmd2YtVUi-1" value="Tomcat日志生产者" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5XpMq87SmSRbmd2YtVUi-1" value="Tomcat日志生产者" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5XpMq87SmSRbmd2YtVUi-2" value="日志主题" style="rounded=0;whiteSpace=wrap;html=1;opacity=90;align=left;" vertex="1" parent="1">
-          <mxGeometry x="230" y="210" width="420" height="440" as="geometry" />
+        <mxCell id="5XpMq87SmSRbmd2YtVUi-2" value="日志主题" style="rounded=0;whiteSpace=wrap;html=1;opacity=90;align=left;" parent="1" vertex="1">
+          <mxGeometry x="580" y="190" width="320" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="5XpMq87SmSRbmd2YtVUi-3" value="Partition_0" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;" vertex="1" parent="1">
-          <mxGeometry x="320" y="220" width="310" height="60" as="geometry" />
+        <mxCell id="5XpMq87SmSRbmd2YtVUi-3" value="Partition_0" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="670" y="200" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5XpMq87SmSRbmd2YtVUi-4" value="Partition_1" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;" vertex="1" parent="1">
-          <mxGeometry x="320" y="290" width="310" height="60" as="geometry" />
+        <mxCell id="5XpMq87SmSRbmd2YtVUi-4" value="Partition_1" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="790" y="200" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5XpMq87SmSRbmd2YtVUi-5" value="Partition_2" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;" vertex="1" parent="1">
-          <mxGeometry x="320" y="360" width="310" height="60" as="geometry" />
+        <mxCell id="5XpMq87SmSRbmd2YtVUi-9" value="消费者1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5XpMq87SmSRbmd2YtVUi-6" value="Partition_3" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;" vertex="1" parent="1">
-          <mxGeometry x="320" y="430" width="310" height="60" as="geometry" />
+        <mxCell id="5XpMq87SmSRbmd2YtVUi-10" value="消费者2" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="520" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5XpMq87SmSRbmd2YtVUi-7" value="Partition_4" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;" vertex="1" parent="1">
-          <mxGeometry x="320" y="500" width="310" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5XpMq87SmSRbmd2YtVUi-8" value="Partition_5" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;" vertex="1" parent="1">
-          <mxGeometry x="320" y="570" width="310" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5XpMq87SmSRbmd2YtVUi-9" value="消费者1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="270" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5XpMq87SmSRbmd2YtVUi-10" value="消费者2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="370" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5XpMq87SmSRbmd2YtVUi-11" value="系统日志生产者" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5XpMq87SmSRbmd2YtVUi-11" value="系统日志生产者" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5XpMq87SmSRbmd2YtVUi-12" value="分析数据生产者" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5XpMq87SmSRbmd2YtVUi-12" value="分析数据生产者" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5XpMq87SmSRbmd2YtVUi-13" value="报表主题" style="rounded=0;whiteSpace=wrap;html=1;opacity=90;align=left;" vertex="1" parent="1">
-          <mxGeometry x="230" y="670" width="420" height="440" as="geometry" />
+        <mxCell id="5XpMq87SmSRbmd2YtVUi-20" value="Tomcat日志生产者" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5XpMq87SmSRbmd2YtVUi-14" value="Partition_0" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;" vertex="1" parent="1">
-          <mxGeometry x="320" y="680" width="310" height="60" as="geometry" />
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-1" value="/var/log/secure&lt;br&gt;(linux系统日志)" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="180" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5XpMq87SmSRbmd2YtVUi-15" value="Partition_1" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;" vertex="1" parent="1">
-          <mxGeometry x="320" y="750" width="310" height="60" as="geometry" />
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-2" value="LogStash" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="360" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5XpMq87SmSRbmd2YtVUi-16" value="Partition_2" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;" vertex="1" parent="1">
-          <mxGeometry x="320" y="820" width="310" height="60" as="geometry" />
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-3" value="Partition_2" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="670" y="270" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5XpMq87SmSRbmd2YtVUi-17" value="Partition_3" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;" vertex="1" parent="1">
-          <mxGeometry x="320" y="890" width="310" height="60" as="geometry" />
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-4" value="Partition_3" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="790" y="270" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5XpMq87SmSRbmd2YtVUi-18" value="Partition_4" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;" vertex="1" parent="1">
-          <mxGeometry x="320" y="960" width="310" height="60" as="geometry" />
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-5" value="Partition_4" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="670" y="340" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5XpMq87SmSRbmd2YtVUi-19" value="Partition_5" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1030" width="310" height="60" as="geometry" />
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-6" value="Partition_5" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="790" y="340" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5XpMq87SmSRbmd2YtVUi-20" value="Tomcat日志生产者" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="210" width="120" height="60" as="geometry" />
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-7" value="报表主题" style="rounded=0;whiteSpace=wrap;html=1;opacity=90;align=left;" vertex="1" parent="1">
+          <mxGeometry x="580" y="460" width="320" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-8" value="Partition_0" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="670" y="470" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-9" value="Partition_1" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="790" y="470" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-10" value="Partition_2" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="670" y="540" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-11" value="Partition_3" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="790" y="540" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-12" value="Partition_4" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="670" y="610" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s8ctC6jzm8qqU47r-SyN-13" value="Partition_5" style="rounded=1;whiteSpace=wrap;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="790" y="610" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
