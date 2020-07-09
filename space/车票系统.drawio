@@ -1,19 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2020-05-07T07:18:20.333Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36" etag="O1SAITeCoyUVRYcAvGi6" version="13.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-09T13:41:09.748Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="69oCJHFHm6YAD5jlEMUH" version="13.3.5" type="github">
   <diagram id="GGTAP_Dss6p3u6D_uiOW" name="第 1 页">
-    <mxGraphModel dx="2062" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="1199" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-1Kdu_ao7LF9vzOcyDo0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-1Kdu_ao7LF9vzOcyDo0-6" target="-1Kdu_ao7LF9vzOcyDo0-8">
+        <mxCell id="-1Kdu_ao7LF9vzOcyDo0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-1Kdu_ao7LF9vzOcyDo0-6" target="-1Kdu_ao7LF9vzOcyDo0-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-1Kdu_ao7LF9vzOcyDo0-6" value="ES集群" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="-1Kdu_ao7LF9vzOcyDo0-6" value="ES集群" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1230" y="1340" width="380" height="100" as="geometry" />
         </mxCell>
         <mxCell id="aDxzfi80MlIau34F5nmL-50" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="1740" y="582.5" width="220" height="585" as="geometry" />
         </mxCell>
-        <mxCell id="-1Kdu_ao7LF9vzOcyDo0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aDxzfi80MlIau34F5nmL-46" target="-1Kdu_ao7LF9vzOcyDo0-3">
+        <mxCell id="-1Kdu_ao7LF9vzOcyDo0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="aDxzfi80MlIau34F5nmL-46" target="-1Kdu_ao7LF9vzOcyDo0-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aDxzfi80MlIau34F5nmL-46" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
@@ -37,19 +37,19 @@
         <mxCell id="dlgCpanpwa_J9QGgFaTf-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dlgCpanpwa_J9QGgFaTf-1" target="dlgCpanpwa_J9QGgFaTf-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dlgCpanpwa_J9QGgFaTf-1" value="车票页面" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="dlgCpanpwa_J9QGgFaTf-1" value="支付网关" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dlgCpanpwa_J9QGgFaTf-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.454;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="dlgCpanpwa_J9QGgFaTf-2" target="dlgCpanpwa_J9QGgFaTf-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dlgCpanpwa_J9QGgFaTf-2" value="车票页面" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="dlgCpanpwa_J9QGgFaTf-2" value="支付网关" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dlgCpanpwa_J9QGgFaTf-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dlgCpanpwa_J9QGgFaTf-3" target="dlgCpanpwa_J9QGgFaTf-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dlgCpanpwa_J9QGgFaTf-3" value="车票页面" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="dlgCpanpwa_J9QGgFaTf-3" value="支付网关" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="900" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o8Zs_roNA5FvOaUuxSW4-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#3333FF;" parent="1" source="dlgCpanpwa_J9QGgFaTf-4" target="o8Zs_roNA5FvOaUuxSW4-1" edge="1">
@@ -207,10 +207,10 @@
         <mxCell id="o8Zs_roNA5FvOaUuxSW4-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;" parent="1" source="o8Zs_roNA5FvOaUuxSW4-64" target="o8Zs_roNA5FvOaUuxSW4-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="o8Zs_roNA5FvOaUuxSW4-64" value="车次/目的地/出发点" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="o8Zs_roNA5FvOaUuxSW4-64" value="车次/目的地/出发点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="240" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o8Zs_roNA5FvOaUuxSW4-65" value="数据统计页面" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="o8Zs_roNA5FvOaUuxSW4-65" value="数据统计页面" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="20" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o8Zs_roNA5FvOaUuxSW4-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;" parent="1" source="o8Zs_roNA5FvOaUuxSW4-71" target="o8Zs_roNA5FvOaUuxSW4-72" edge="1">
@@ -321,20 +321,26 @@
             <mxPoint x="1740" y="869.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-1Kdu_ao7LF9vzOcyDo0-1" value="ElasticSearch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-1Kdu_ao7LF9vzOcyDo0-1" value="ElasticSearch" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1280" y="1360" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-1Kdu_ao7LF9vzOcyDo0-2" value="ElasticSearch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-1Kdu_ao7LF9vzOcyDo0-2" value="ElasticSearch" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1445" y="1360" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-1Kdu_ao7LF9vzOcyDo0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-1Kdu_ao7LF9vzOcyDo0-3" target="-1Kdu_ao7LF9vzOcyDo0-6">
+        <mxCell id="-1Kdu_ao7LF9vzOcyDo0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="-1Kdu_ao7LF9vzOcyDo0-3" target="-1Kdu_ao7LF9vzOcyDo0-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-1Kdu_ao7LF9vzOcyDo0-3" value="Logstash" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-1Kdu_ao7LF9vzOcyDo0-3" value="Logstash" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1120" y="1230" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-1Kdu_ao7LF9vzOcyDo0-8" value="Kibana可视化管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-1Kdu_ao7LF9vzOcyDo0-8" value="Kibana可视化管理" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1740" y="1360" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h9eFTPV92a1zDK-IA_1--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h9eFTPV92a1zDK-IA_1--1" target="o8Zs_roNA5FvOaUuxSW4-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h9eFTPV92a1zDK-IA_1--1" value="车票系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="30" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
