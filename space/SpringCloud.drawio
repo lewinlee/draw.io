@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-10T01:36:20.222Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="hA3vT81_uAMQe8pmodzH" version="13.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-10T01:40:30.088Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="u7qLlYrM2zFqBgEbbIbi" version="13.4.1" type="github">
   <diagram id="-CVjEVxWhJPWR4eMPzpt" name="第 1 页">
     <mxGraphModel dx="1571" dy="4463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -84,8 +84,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9xwFCIThXrGrDdYYms6o-11" value="消息总线功能开发和测试环境使用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="370" width="190" height="10" as="geometry" />
+        <mxCell id="9xwFCIThXrGrDdYYms6o-11" value="消息总线自动刷新功能开发和测试环境使用，正式环境不自动刷新。&lt;br&gt;&lt;br&gt;生产环境还是有配置中心的，只是不自动刷新" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="300" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9xwFCIThXrGrDdYYms6o-12" value="Eureka注册中心" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9xwFCIThXrGrDdYYms6o-13" value="Eureka注册中心" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="580" y="-160" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
